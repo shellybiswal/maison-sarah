@@ -1,6 +1,6 @@
 /* 1. Base Document Styles */
 body {
-  background-color: #fdfbf7;
+  background-color: #e3eaec;
   color: #2b2b2b;
 }
 
@@ -35,6 +35,6 @@ nav a {
 }
 
 .price {
-  color: #15803d;
+  color: #5d0a98;
   font-weight: bold;
 }
