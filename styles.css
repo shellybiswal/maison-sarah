@@ -1,31 +1,26 @@
 /* 1. Base Document Styles */
 body {
-  background-color: #fdfbf7; /* Warm light off-white */
-  color: #2b2b2b; /* Dark charcoal text (Contrast Ratio: 14.2:1) */
+  background-color: #fdfbf7;
+  color: #2b2b2b;
 }
 
 /* 2. Dark Scheme for Header and Footer (Grouped Selector) */
 header,
 footer {
-  background-color: #854d0e; /* Deep slate dark background */
-  color: #f1f5f9; /* Light slate text (Contrast Ratio: 13.8:1) */
+  background-color: #854d0e;
+  color: #c2dbc1;
 }
 
-/* 3. Grouped Selector for Headings */
+/* 3. Grouped Color for Headings */
 h1,
 h2 {
-  color: #854d0e; /* Deep warm amber/brown (Contrast Ratio: 5.8:1 on #fdfbf7) */
+  color: #854d0e;
 }
 
 /* 4. Descendant Selector for Navigation Links */
 nav a {
-  color: #38bdf8; /* Vibrant sky blue (Contrast Ratio: 4.8:1 on #1e293b) */
+  color: #c2dbc1;
   text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  text-decoration: underline;
 }
 
 /* 5. Utility Classes */
