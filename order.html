@@ -34,6 +34,189 @@
           Our online pre-order form is coming soon! In the meantime, please
           visit our storefront or give us a call to place bulk pre-orders.
         </p>
+
+        <form action="order.html" method="get">
+          <fieldset>
+            <legend>Who is picking up</legend>
+
+            <div class="field-group">
+              <label for="pickup-name" class="required">Name</label>
+              <input
+                class="field"
+                id="pickup-name"
+                name="pickup-name"
+                type="text"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="pickup-email" class="required">Email</label>
+              <input
+                class="field"
+                id="pickup-email"
+                name="pickup-email"
+                type="email"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pickup day</legend>
+
+            <div class="choice-row">
+              <input
+                id="pickup-day-saturday"
+                name="pickup-day"
+                type="radio"
+                value="Saturday"
+                checked
+              />
+              <label for="pickup-day-saturday">Saturday</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="pickup-day-sunday"
+                name="pickup-day"
+                type="radio"
+                value="Sunday"
+              />
+              <label for="pickup-day-sunday">Sunday</label>
+            </div>
+
+            <div class="field-group">
+              <label for="pickup-time">Pickup time</label>
+              <select class="field" id="pickup-time" name="pickup-time">
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="10:30 AM">10:30 AM</option>
+                <option value="12:00 PM">12:00 PM</option>
+                <option value="2:00 PM">2:00 PM</option>
+                <option value="4:00 PM">4:00 PM</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your order</legend>
+
+            <div class="choice-row">
+              <input
+                id="order-sourdough"
+                name="order-sourdough"
+                type="checkbox"
+                value="Classic Sourdough Loaf"
+              />
+              <label for="order-sourdough">Classic Sourdough Loaf</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-wholegrain-rye"
+                name="order-wholegrain-rye"
+                type="checkbox"
+                value="Whole Grain Rye"
+              />
+              <label for="order-wholegrain-rye">Whole Grain Rye</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-croissant"
+                name="order-croissant"
+                type="checkbox"
+                value="Butter Croissant"
+              />
+              <label for="order-croissant">Butter Croissant</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-choco-croissant"
+                name="order-choco-croissant"
+                type="checkbox"
+                value="Chocolate Croissant"
+              />
+              <label for="order-choco-croissant">Chocolate Croissant</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-peach-tart"
+                name="order-peach-tart"
+                type="checkbox"
+                value="Peach Tart"
+              />
+              <label for="order-peach-tart">Peach Tart</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-black-forest-cake"
+                name="order-black-forest-cake"
+                type="checkbox"
+                value="Black Forest Cake"
+              />
+              <label for="order-black-forest-cake">Black Forest Cake</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-espresso"
+                name="order-espresso"
+                type="checkbox"
+                value="Espresso"
+              />
+              <label for="order-espresso">Espresso</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-cappuccino"
+                name="order-cappuccino"
+                type="checkbox"
+                value="Cappuccino"
+              />
+              <label for="order-cappuccino">Cappuccino</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-latte"
+                name="order-latte"
+                type="checkbox"
+                value="Latte"
+              />
+              <label for="order-latte">Latte</label>
+            </div>
+
+            <div class="choice-row">
+              <input
+                id="order-matcha-milk-latte"
+                name="order-matcha-milk-latte"
+                type="checkbox"
+                value="Matcha Milk Latte"
+              />
+              <label for="order-matcha-milk-latte">Matcha Milk Latte</label>
+            </div>
+
+            <div class="field-group">
+              <label for="order-notes">Notes</label>
+              <textarea
+                class="field"
+                id="order-notes"
+                name="order-notes"
+                rows="4"
+                placeholder="Any allergy notes or request details?"
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <button type="submit">Place order</button>
+        </form>
       </div>
     </main>
 
