@@ -1,0 +1,40 @@
+/* 1. Base Document Styles */
+body {
+  background-color: #e3eaec;
+  color: #2b2b2b;
+}
+
+/* 2. Dark Scheme for Header and Footer (Grouped Selector) */
+header,
+footer {
+  background-color: #854d0e;
+  color: #c2dbc1; /* Contrast ratio of 4.63:1 against #854d0e */
+}
+
+/* 3. Grouped Color for Headings */
+h1,
+h2 {
+  color: #975913; /* Contrast ratio of 4.59:1 against #e3eaec */
+}
+
+/* 4. Descendant Selector for Navigation Links */
+nav a {
+  color: #c2dbc1;
+  text-decoration: none;
+}
+
+/* 5. Utility Classes */
+.brand {
+  color: #c2dbc1;
+  font-weight: bold;
+}
+
+.tagline {
+  color: #525252;
+  font-style: italic;
+}
+
+.price {
+  color: #5d0a98;
+  font-weight: bold;
+}
