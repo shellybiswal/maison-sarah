@@ -13,58 +13,94 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="brand">
-      Maison Sarah
+    <header>
+      <div class="container header-bar">
+        <div class="brand">Maison Sarah</div>
 
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./menu.html">Menu</a></li>
-          <li><a href="./order.html">Order</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./order.html">Order</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <h1>Our Daily Menu</h1>
-      <p class="tagline">
-        Handcrafted sourdough and artisanal breads and pastries baked fresh
-        daily in Bingen.
-      </p>
+      <div class="container">
+        <h1>Our Daily Menu</h1>
+        <p class="tagline">
+          Handcrafted sourdough and artisanal breads and pastries baked fresh
+          daily in Bingen.
+        </p>
 
-      <ul>
-        <li>
-          <h2>Artisanal Breads</h2>
-          <ul>
-            <li>Classic Sourdough Loaf - <span class="price">€4.50</span></li>
-            <li>Whole Grain Rye - <span class="price">€4.00</span></li>
-            <li>Whole Grain Rye - <span class="price">€4.00</span></li>
-            <li>Whole Grain Rye - <span class="price">€4.00</span></li>
-          </ul>
-        </li>
-        <li>
-          <h2>Pastries & Sweets</h2>
-          <ul>
-            <li>Butter Croissant - <span class="price">€1.20</span></li>
-            <li>Chocolate Croissant - <span class="price">€1.40</span></li>
-            <li>Peach Tarts - <span class="price">€2.20</span></li>
-            <li>Black Forest Cake - <span class="price">€2.80</span></li>
-          </ul>
-        </li>
-        <li>
-          <h2>Beverages</h2>
-          <ul>
-            <li>Espresso - <span class="price">€2.00</span></li>
-            <li>Cappuccino - <span class="price">€1.50</span></li>
-            <li>Latte - <span class="price">€1.80</span></li>
-            <li>Matcha Milk Latte - <span class="price">€3.50</span></li>
-          </ul>
-        </li>
-      </ul>
+        <h2>Weekend specials</h2>
+        <div class="card-row">
+          <article class="card">
+            <img
+              src="./images/special-1.jpeg"
+              alt="A fresh cinnamon bun with a glossy glaze and warm bakery aroma presented on a wooden board."
+            />
+            <h3>Honey Cinnamon Bun</h3>
+            <p class="price">€4.20</p>
+          </article>
+
+          <article class="card">
+            <img
+              src="./images/special-2.jpeg"
+              alt="A golden artisan loaf with a crisp crust and airy crumb resting beside a linen cloth."
+            />
+            <h3>Rustic Sourdough Loaf</h3>
+            <p class="price">€6.80</p>
+          </article>
+
+          <article class="card">
+            <img
+              src="./images/special-3.jpeg"
+              alt="A flaky fruit tart with a buttery crust and glazed berries arranged neatly on top."
+            />
+            <h3>Berry Fruit Tart</h3>
+            <p class="price">€5.50</p>
+          </article>
+        </div>
+
+        <ul>
+          <li>
+            <h2>Artisanal Breads</h2>
+            <ul>
+              <li>Classic Sourdough Loaf - <span class="price">€4.50</span></li>
+              <li>Whole Grain Rye - <span class="price">€4.00</span></li>
+              <li>Whole Grain Rye - <span class="price">€4.00</span></li>
+              <li>Whole Grain Rye - <span class="price">€4.00</span></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Pastries & Sweets</h2>
+            <ul>
+              <li>Butter Croissant - <span class="price">€1.20</span></li>
+              <li>Chocolate Croissant - <span class="price">€1.40</span></li>
+              <li>Peach Tarts - <span class="price">€2.20</span></li>
+              <li>Black Forest Cake - <span class="price">€2.80</span></li>
+            </ul>
+          </li>
+          <li>
+            <h2>Beverages</h2>
+            <ul>
+              <li>Espresso - <span class="price">€2.00</span></li>
+              <li>Cappuccino - <span class="price">€1.50</span></li>
+              <li>Latte - <span class="price">€1.80</span></li>
+              <li>Matcha Milk Latte - <span class="price">€3.50</span></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </main>
 
     <footer>
-      <p>&copy; 2026 Maison Sarah. All rights reserved.</p>
+      <div class="container">
+        <p>&copy; 2026 Maison Sarah. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
