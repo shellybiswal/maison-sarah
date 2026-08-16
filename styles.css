@@ -1,32 +1,46 @@
-/* 1. Base Document Styles */
+/*  Setting page font size */
+html {
+  font-size: 62.5%;
+}
+
+/*  Base Document Styles */
 body {
   background-color: #e3eaec;
   color: #2b2b2b;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 
-/* 2. Dark Scheme for Header and Footer (Grouped Selector) */
-header,
-footer {
-  background-color: #854d0e;
-  color: #c2dbc1; /* Contrast ratio of 4.63:1 against #854d0e */
-}
-
-/* 3. Grouped Color for Headings */
 h1,
 h2 {
   color: #975913; /* Contrast ratio of 4.59:1 against #e3eaec */
+  font-family: "Playfair Display", serif;
 }
 
-/* 4. Descendant Selector for Navigation Links */
+h1 {
+  font-size: 3.6rem;
+  letter-spacing: 0.05rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+/* Descendant Selector for Navigation Links */
 nav a {
   color: #c2dbc1;
   text-decoration: none;
+  font-size: 1.6rem;
 }
 
-/* 5. Utility Classes */
+/*  Utility Classes */
 .brand {
   color: #c2dbc1;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem; /* Scaled from heading system */
+  font-weight: 700;
 }
 
 .tagline {
@@ -37,4 +51,16 @@ nav a {
 .price {
   color: #5d0a98;
   font-weight: bold;
+}
+
+/*  Dark Scheme for Header and Footer (Grouped Selector) */
+header,
+footer {
+  background-color: #854d0e;
+  color: #c2dbc1; /* Contrast ratio of 4.63:1 against #854d0e */
+  text-align: center;
+}
+
+footer {
+  font-size: 1.4rem; /* 14px */
 }
